@@ -66,10 +66,25 @@ body {
   height: 280px;
   padding: 20px;
 }
+.information p {
+  margin-top: 5px;
+}
 
 .contact {
   height: 280px;
   padding: 20px;
+}
+.contact p {
+  margin-top: 5px;
+}
+.contact .url a {
+  font-size: 14px;
+  top: 5px;
+  color: white;
+  text-decoration: none;
+}
+.contact .url a:hover {
+  text-decoration: underline;
 }
 
 .title1 {
@@ -89,7 +104,7 @@ body {
   letter-spacing: 2px;
   color: #124559;
   padding-bottom: 5px;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .title3 {
@@ -105,24 +120,28 @@ body {
 }
 
 .about {
-  height: 300px;
+  height: 290px;
 }
 
 .experience {
-  height: 280px;
+  height: 270px;
 }
 
 .education {
-  height: 170px;
+  height: 160px;
 }
 
 .skill {
   height: 200px;
 }
-.skill .url {
+.skill .url a {
   color: #829292;
   display: inline;
   font-weight: normal;
+  text-decoration: none;
+}
+.skill .url a:hover {
+  text-decoration: underline;
 }
 
 .timeline {
